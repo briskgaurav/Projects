@@ -1,0 +1,711 @@
+@font-face {
+    font-family: saiyans;
+    src: url(Saiyan-Sans.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(244, 241, 241);
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 5rem;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    padding: 0 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.0625rem solid #222;
+}
+.nav img{
+    height: 2.5rem;
+    
+}
+.nav h5{
+    font-size: .8rem;
+
+}
+.nav i{
+ width: 12%;
+    font-size: 1.8rem;
+    text-align: right;
+}
+.elems{
+    height:20rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 3.75rem;
+}
+
+.elem1{
+
+    width: 30%;
+    height: 100%;
+}
+.elem2{
+    padding:0 3rem;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    border-left: .0625rem solid #222;
+    border-right: .0625rem solid #222;
+}
+.elem3{
+
+    width: 30%;
+    height: 100%;
+}
+.elem1 .img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.img-div:hover img{
+    scale: 1.1;
+}
+.elem3 .img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-div img{
+    height: 100%;
+    border: .0625rem solid black;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+.elem1 h4{
+    margin:.6rem 0px;
+    font-size: 1.5rem;
+    font-family:saiyans;
+    font-weight: 200;
+}
+.elem1 span{
+    background-color: #b43b12;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: .2rem;
+    margin-left: .1rem;
+    border-radius: .2rem;
+}
+.elem3 span{
+    background-color: #b43b12;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: .2rem;
+    margin-left: .2rem;
+    border-radius: .2rem;
+}
+.elem3 h4{
+    margin:.6rem 0;
+    font-size: 1.5rem;
+    font-family:saiyans;
+    font-weight: 200;
+}
+.elem1 p{
+    font-size: 1.2rem;
+    font-weight: 900;
+
+}
+.elem3 p{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.elem2 h2 {
+    font-family: saiyans;
+    font-weight: 100;
+    font-size: 4rem;
+}
+.elem2 h3{
+    font-size:1.8rem;
+    font-weight: 900;
+    padding: 1.2rem 0;   
+}
+.elem2 h6{
+    font-size: .8rem;
+    font-weight: 100;
+}
+.page1 h1{
+    font-size: 19rem;
+    letter-spacing: -.8rem;
+    font-weight: 200;
+    text-align: center;
+    background-color: #1c1c19;
+    color: rgb(244, 241, 241);
+    font-family: canopee;
+    line-height: 19rem;
+    width: 95%;
+    margin-left: 2%;
+}
+.page2{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    background-color:rgb(244, 241, 241) ;
+}
+.left{
+    height:100%;
+    width: 35%;
+    padding-right: 2rem;
+    border-right: .0625rem solid #222;
+}
+.left h2{
+    font-size: 10rem;
+    font-weight: 100;
+    font-family: saiyans;
+    line-height: 9rem;
+    text-align: center;
+    
+}
+.left h2 span{
+    font-size: 12rem;
+    font-weight: 300;
+
+}
+.left img{
+    height: 50%;
+    margin: 1rem 0;
+    border: .0625rem solid black;
+
+}
+.left p{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-weight:900rem;
+}
+.right{
+    height: 100%;
+    width: 70%;
+    padding :0 3rem;
+}
+.right img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border: .0625rem solid black;
+}
+.right p{
+  font-size: 3.8rem;
+  padding: 1.6rem 0;
+  font-family: canopee;
+  font-weight:900;
+}
+
+.page2bott{
+    height: 45vh;
+    width: 100%;
+   position: relative;
+    background-color:rgb(244, 241, 241) ;
+}
+.page2bott img{
+    object-fit: cover;
+    height:20rem;
+    width: 22%;
+    position: absolute;
+    top: 0%;
+    border: .0625rem solid black;
+    right: 2%;
+}
+.page2bott h1{
+    font-size: 21rem;
+    letter-spacing: -.8rem;
+    font-weight: 100;
+    background-color: #1c1c19;
+    width: fit-content;
+    color: rgb(244, 241, 241);
+    margin-left: 2%;
+    padding: 0 1rem;
+    line-height: 20rem;
+    font-family: canopee;
+}
+
+.page3{
+    height: 110vh;
+    width: 100%;
+    background-color:rgb(244, 241, 241) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    width: 60%;
+    height:100%;
+    padding: 6rem 0;
+    padding-left: 4rem;
+    display: flex;
+    position: relative;
+}
+.left-div{
+    width: 50%;
+    padding:0 1rem;
+    text-align: center;
+    height: 35%;
+}
+.left-div h2{
+    font-family: saiyans;
+    font-weight: 100;
+    font-size: 4rem;
+}
+.left-div p{
+    font-size:1.8rem;
+    font-weight: 900;
+    padding: 1rem 0;   
+}
+.left-div h6{
+    font-size: .8rem;
+    font-weight: 200;
+    margin: 1rem 0;
+}
+
+.right-div{
+    width: 50%;
+    height: 45%;
+   margin: 0 2rem;
+  padding: 0 1.5rem;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+}
+.right-div h4{
+    font-size: 1.8rem;
+    font-family:saiyans;
+    font-weight: 200;
+    margin-top: -5.6rem;
+
+}
+.right-div p{
+    margin:.6rem 0px;
+    font-size: .8rem;
+    font-weight: 900;
+}
+.mid-div img{
+    height: 60%;
+    border: .0625 solid black;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+.right-div .mid-div{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.mid-div:hover img{
+    scale: 1.1;
+}
+
+.div2{
+    width: 40%;
+    height:100%;
+    padding: 6rem;
+    padding-left: 4rem;
+}
+.div2 h2{
+    font-size: 6.5rem;
+    font-family: Saiyans;
+    font-weight: 200;
+    line-height: 5.8rem;
+    text-align: center;
+}
+.div2 h2 span{
+    font-size: 7.5rem;
+    font-family: Saiyans;
+    font-weight: 400;
+}
+.div2 p{
+    font-size: 1.9rem;
+    padding: 2rem 0;
+    font-weight: 900;
+}
+.div2 span{
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+.imglow img{
+    height: 50%;
+    width: 86%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 5.9rem;
+    top: 24rem;
+    border: .0625rem solid black;
+}
+.page4{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(244, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    border-bottom: 0.0625rem solid black;
+    
+}
+.aw2{
+    border-right: 0.0625rem solid black;
+    border-left: 0.0625rem solid black;
+    padding: 0 5rem;
+    text-align: center;
+   
+}
+.aw1{
+   padding-left: 4rem;
+}
+.aw3{
+    padding-right: 4rem;
+}
+.aw1 h3{
+font-size: 6rem;
+font-weight: 500;
+font-family: SAIYANS;
+}
+.aw1 h2{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.4rem;
+    font-family: SAIYANS;
+}
+
+.aw2 h3{
+font-size: 6rem;
+font-weight: 500;
+font-family: SAIYANS;
+}
+.aw2 h2{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    line-height: 1.4rem;
+    font-family: SAIYANS;
+}
+
+.aw3 h3{
+font-size: 6rem;
+font-weight: 500;
+font-family: SAIYANS;
+}
+.aw3 h2{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    font-weight: 100;
+    line-height: 1.4rem;
+    font-family: SAIYANS;
+}
+.page5{
+    height: 75vh;
+    width: 100%;
+    background-color: rgb(244, 241, 241);
+    padding: 2rem 3rem;
+   
+}
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fd1{
+    width: 30%;
+    height: 100%;
+}
+.fd2{
+    width: 30%;
+    height: 100%;
+}
+.fd3{
+    width: 30%;
+    height: 100%;
+}
+.fd1 h4{
+    margin:.6rem;
+    font-size: 1.5rem;
+    font-family:saiyans;
+    font-weight: 200;
+}
+.fd1 p{
+    font-size: 1.2rem;
+    font-weight: 900;
+
+}
+.fd1 h4 span{
+    background-color: #b43b12;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: .2rem;
+    /* margin-left: .2rem; */
+    border-radius: .2rem;
+}
+.fd3 h4 span{
+    background-color: #b43b12;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: .2rem;
+    /* margin-left: .2rem; */
+    border-radius: .2rem;
+}
+.fd3 h4{
+    margin:.6rem 0;
+    font-size: 1.5rem;
+    font-family:saiyans;
+    font-weight: 200;
+}
+.fd3 p{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.fd2{
+    padding:0 3rem;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    border-left: 0.0625rem solid #222;
+    border-right: 0.0625rem solid #222;
+}
+.fd2 h2 {
+    font-family: saiyans;
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+.fd2 h3{
+    font-size:1.5rem;
+    font-weight: 900;
+    padding: 1.2rem 0;   
+}
+.fd2 h6{
+    font-size: .8rem;
+    font-weight: 100;
+}
+.fd3 .img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.fd-div:hover img{
+    scale: 1.1;
+}
+.fd-div img{
+    height: 100%;
+    border: 0.0625rem solid black;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+.fd1 .fd-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+marquee{
+ width: 100%;
+ background-color: #1c1c19;
+margin-top: 2rem;
+color: rgb(244, 241, 241);
+ padding: 3rem 0;
+ font-size: 4rem;
+ font-family: saiyans;
+ font-weight:100;
+ border-top: 0.0625rem solid black;
+ border-bottom: 0.0625rem solid black;
+
+}
+.fc{
+    width: 100%;
+    height: 5vh;
+    padding: 0 2.5rem;
+    background-color:rgb(244, 241, 241);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none; 
+}
+.footer li{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none; 
+    list-style: none;
+    font-size: .8rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer h4{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 60%;
+    }
+    .footer{
+        height: 5vh;
+    }
+    .page5{
+        height: 26vh;
+        width: 100%;
+    }
+    .page4{
+        height: 10vh;
+    }
+    .page3{
+        height: 38vh;
+    }
+    .page2bott{
+        height: 15vh;
+    }
+    .page1{
+        height: 35vh;
+    }
+    .page2{
+        height: 52vh;
+    }
+}
+
+@media(max-width:768px) 
+{
+    html{
+        font-size: 50%;
+        width: 124%;
+    }
+    .footer{
+        height: 5vh;
+        padding-top: 5%;
+    }
+    .page5{
+        height: 20vh;
+        width: 100%;
+       
+    }
+    .page4{
+        height: 10vh;
+    }
+    .page3{
+        height: 31vh;
+    }
+    .page2bott{
+        height: 12vh;
+    }
+    .page1{
+        height: 30vh;
+    }
+    .page2{
+        height: 40vh;
+    }
+}
+@media(max-width:600px) {
+    html{
+        font-size: 50%;
+        width: 124%;
+    }
+    .footer{
+        height: 5vh;
+        padding-top: 5%;
+    }
+    .page5{
+        height: 20vh;
+        width: 100%;
+       
+    }
+    .page4{
+        height: 10vh;
+    }
+    .page3{
+        height: 30vh;
+    }
+    .page2bott{
+        height: 13vh;
+    }
+    .page1{
+        height: 28vh;
+    }
+    .page2{
+        height: 48vh;
+    }
+    .left img{
+        height: 40%;
+    }
+    .page2bott img{
+        width: 15%;
+    }
+}
+ @media(max-width:450px){
+    html{
+        font-size: 25%;
+        width: 100%;
+    }
+    .footer{
+        height: 5vh;
+    }
+    .page5{
+        height: 15vh;
+        width: 100%;
+    }
+    .page4{
+        height: 10vh;
+    }
+    .page3{
+        height: 20vh;
+    }
+    .page2bott{
+        height: 8vh;
+    }
+    .page1{
+        height: 20vh;
+    }
+    .page2{
+        height: 30vh;
+    }
+    .left img{
+        height: 50%;
+    }
+    .page2bott img{
+        width: 18%;
+    }
+}
+
